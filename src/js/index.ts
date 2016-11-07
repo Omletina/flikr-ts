@@ -10,7 +10,7 @@ type photoItem = {
 
 type photoData = photoItem[];
 
-class Flickr {
+class Flikr {
 
   protected _passedOpts: any;
   protected _searchHandler: (e: Event) => void;
@@ -147,7 +147,7 @@ class Flickr {
 }
 
 
-let app: Flickr = new Flickr({
+let app: Flikr = new Flikr({
   elems: {
     formElem: document.querySelector(".search-panel"),
     inputElem: document.querySelector(".flickr-search-input"),
